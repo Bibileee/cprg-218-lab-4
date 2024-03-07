@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="styles/global.css" />
+    <link rel="stylesheet" type="text/css" href="styles/lab_four_starter.css" />
+
+    <title>Common Website Features</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+
+    <style>
+      .backgroundImage {
+        width: 100%;
+        aspect-ratio: 16/9;
+        height: auto;
+        display: block;
+      }
+
+      .backgroundHeading {
+        position: absolute;
+        align-items: center;
+        top: 0;
+        color: #f1f1f1;
+        width: 100%;
+        height: 50%;
+        color: white;
+        padding-top: 25%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero-container">
+      <!-- Remove and add hero banner HTML -->
+      <div class="overlay">
+        <img
+          src="assets/header-bg.jpg"
+          class="backgroundImage"
+          alt="backgroundImage"
+        />
+        <div class="backgroundHeading">
+          <h1>Dog's Breeds</h1>
+          <h2>Intronducing some dogs' breeds</h2>
+        </div>
+        <div class="backgroundText"></div>
+      </div>
+    </section>
+    <section class="container content-container">
+      <!-- Content HTML -->
+      <div class="content">
+        <div>
+          <img
+            class="content-img"
+            src="assets/content-dog.jpg"
+            alt="French Bulldog"
+          />
+        </div>
+        <div class="intro-text">
+          <h2>French Bulldog: The Charismatic Companion</h2>
+          <p>
+            The French Bulldog, often affectionately referred to as "Frenchies,"
+            is a small but sturdy breed known for its distinctive appearance and
+            endearing personality. Originating from 19th-century France, these
+            dogs have captivated the hearts of dog enthusiasts worldwide with
+            their charming demeanor and unique characteristics.
+          </p>
+          <h3>Appearance:</h3>
+          <p>
+            French Bulldogs are easily recognizable by their compact build,
+            bat-like ears, and expressive facial features. They typically weigh
+            between 16 to 28 pounds (7 to 13 kilograms) and stand around 11 to
+            12 inches (28 to 31 centimeters) tall at the shoulder. Despite their
+            small stature, Frenchies have a muscular and well-balanced body,
+            giving them a robust appearance. Their smooth and short coat comes
+            in various colors, including brindle, fawn, white, and pied.
+          </p>
+          <h3>Personality:</h3>
+          <p>
+            One of the most appealing aspects of French Bulldogs is their
+            delightful personality. They are known for their affectionate and
+            sociable nature, making them excellent companions for individuals
+            and families alike. Frenchies thrive on human companionship and love
+            to be in the company of their owners. They are often described as
+            playful, loyal, and even-tempered, making them suitable pets for
+            households with children and other pets.
+          </p>
+        </div>
+        <a
+          href="https://www.akc.org/dog-breeds/french-bulldog/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>More</button>
+        </a>
+      </div>
+    </section>
+    <section class="container accordion-container">
+      <!-- Remove and add accordion HTML -->
+      <h1>Click to expand and see more about each breed</h1>
+      <button class="accordion">Golden Retriever</button>
+      <div class="panel">
+        <p>
+          The Golden Retriever is a beloved breed known for its friendly and
+          gentle temperament. Originating from Scotland, these dogs are not only
+          beautiful but also intelligent and loyal companions. With their golden
+          coats and kind eyes, they excel as family pets, therapy dogs, and in
+          various roles in search and rescue operations.
+        </p>
+      </div>
+
+      <button class="accordion">German Shepherd</button>
+      <div class="panel">
+        <p>
+          German Shepherds are renowned for their versatility and strength.
+          Originally bred as herding dogs, they are now widely used in various
+          roles, including police and military work, search and rescue, and as
+          service animals. Their intelligence, loyalty, and protective instincts
+          make them ideal working partners and devoted family pets.
+        </p>
+      </div>
+
+      <button class="accordion">Border Collie</button>
+      <div class="panel">
+        <p>
+          Border Collies are highly intelligent and energetic herding dogs.
+          Originating from the border regions between Scotland and England,
+          these agile and athletic dogs excel in activities like agility trials
+          and obedience competitions. Their intense focus, quick learning
+          abilities, and boundless energy require plenty of mental and physical
+          stimulation to thrive.
+        </p>
+      </div>
+
+      <button class="accordion">French Bulldog</button>
+      <div class="panel">
+        <p>
+          French Bulldogs, with their distinctive bat-like ears and charming
+          personalities, have captured the hearts of many dog lovers. Despite
+          their small size, they possess a sturdy build and a playful demeanor.
+          Affectionate and adaptable, Frenchies make excellent companions for
+          city dwellers and families alike.
+        </p>
+      </div>
+
+      <button class="accordion">Labrador Retriever</button>
+      <div class="panel">
+        <p>
+          Labrador Retrievers are one of the most popular dog breeds worldwide,
+          known for their friendly and outgoing nature. With their signature
+          otter-like tails and water-resistant coats, Labs excel in various
+          roles, including as assistance dogs for individuals with disabilities,
+          search and rescue, and as beloved family pets.
+        </p>
+      </div>
+
+      <button class="accordion">Siberian Husky</button>
+      <div class="panel">
+        <p>
+          Siberian Huskies are majestic, wolf-like dogs known for their
+          endurance and striking appearance. Originating from Siberia, these
+          sled dogs are built for cold climates and are famous for their ability
+          to pull heavy loads over long distances. With their independent nature
+          and strong pack instincts, Huskies thrive in active households with
+          plenty of space to roam.
+        </p>
+      </div>
+
+      <button class="accordion">Dachshund</button>
+      <div class="panel">
+        <p>
+          Dachshunds, also known as wiener dogs or sausage dogs, are
+          characterized by their long bodies and short legs. Despite their small
+          size, they possess a courageous and curious nature. Originally bred
+          for hunting small game, Dachshunds today are cherished companions
+          known for their loyalty and amusing personalities.
+        </p>
+      </div>
+
+      <button class="accordion">Poodle</button>
+      <div class="panel">
+        <p>
+          Poodles are renowned for their intelligence, elegance, and
+          hypoallergenic coats. Available in three sizes—standard, miniature,
+          and toy—Poodles excel in various activities, including obedience
+          trials, agility competitions, and as therapy dogs. Their graceful
+          appearance and keen intellect make them cherished companions and
+          versatile working dogs.
+        </p>
+      </div>
+
+      <button class="accordion">Beagle</button>
+      <div class="panel">
+        <p>
+          Beagles are merry and curious scent hounds known for their keen sense
+          of smell and friendly disposition. Originating from England, these
+          compact yet muscular dogs were originally bred for hunting hare. With
+          their affectionate nature and playful demeanor, Beagles make excellent
+          family pets and are well-suited for active households.
+        </p>
+      </div>
+    </section>
+
+    <section class="footer-container">
+      <div class="footer">
+        <div class="footer-column info">
+          <h3>Contact Information</h3>
+          <p>Danbi Lee</p>
+          <p>Address: Sait, Calgary</p>
+          <p>Phone: +1 587-123-4567</p>
+          <p>Email: bibi@example.com</p>
+        </div>
+        <div class="footer-column links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home ></a></li>
+            <li><a href="#">Interesting facts about dogs ></a></li>
+            <li><a href="#">Dog adoption centre ></a></li>
+          </ul>
+        </div>
+        <div class="footer-column map-container">
+          <h3>Location</h3>
+          <div class="footer-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80260.56728347734!2d-114.1840191812808!3d51.05045233181702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f9268a69e81%3A0xb1db5e68bd61e28!2sSouthern%20Alberta%20Institute%20of%20Technology!5e0!3m2!1sko!2sca!4v1709766551183!5m2!1sko!2sca"
+              width="300"
+              height="500"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2024 Danbi Lee. All rights reserved.
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/scripts.js"></script>
+  </body>
+</html>
